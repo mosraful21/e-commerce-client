@@ -87,3 +87,21 @@ a {
 }
 
 /********** Header Part End **********/
+
+
+/********** Footer Part Start **********/
+
+footer {
+  background-color: #232f3e;
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid #3b4149;
+}
+
+footer .input-group-text {
+  background-color: #232f3e;
+  color: #fff;
+}
+
+/********** Footer Part End **********/
