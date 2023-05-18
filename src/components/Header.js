@@ -129,8 +129,8 @@ const Header = () => {
                                 <div className="menu-links">
                                     <div className="d-flex align-items-center gap-4">
                                         <NavLink className={({ isActive }) => isActive ? 'active' : undefined} to="/">Home</NavLink>
-                                        <NavLink to="/product">Our Store</NavLink>
-                                        <NavLink to="/blogs">Blogs</NavLink>
+                                        <NavLink to="/store">Our Store</NavLink>
+                                        <NavLink to="/blog">Blogs</NavLink>
                                         <NavLink to="/contact">Contact</NavLink>
                                     </div>
                                 </div>
